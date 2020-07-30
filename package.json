@@ -1,0 +1,46 @@
+{
+    "name": "vscode-litscript-highlighting",
+    "displayName": "LiTScript Syntax Highlighting",
+    "description": "Add syntax highlighting of markdown comments for file formats supported by LiTScript documentation generation tool",
+    "version": "0.0.1",
+    "publisher": "johtela",
+    "repository": {
+        "url": "https://github.com/johtela/vscode-litscript-highlighting.git"
+    },
+    "bugs": {
+        "url": "https://github.com/johtela/vscode-litscript-highlighting/issues"
+    },    
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "javascript",
+        "typescript",
+        "jsdoc",
+        "comment",
+        "markdown",
+        "litscript"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "scopeName": "litscript.injection.ts",
+                "path": "./syntaxes/lits.ts.tmLanguage.json",
+                "injectTo": [
+                    "source.ts",
+                    "source.tsx"
+                ]
+            },
+            {
+                "scopeName": "litscript.injection.json.comments",
+                "path": "./syntaxes/lits.jsonc.tmLanguage.json",
+                "injectTo": [
+                    "source.json.comments"
+                ]
+            }
+        ]
+    }
+}
