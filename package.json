@@ -10,6 +10,7 @@
     "bugs": {
         "url": "https://github.com/johtela/vscode-litscript-highlighting/issues"
     },
+	"license": "MPL-2.0",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -24,6 +25,7 @@
         "markdown",
         "litscript"
     ],
+	"icon": "images/bulb.png",
     "contributes": {
         "grammars": [
             {
