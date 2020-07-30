@@ -1,5 +1,5 @@
 {
-    "injectionSelector": "L:comment.block.documentation",
+    "injectionSelector": "L:comment.block",
     "patterns": [
         {
             "include": "#jsdocbody"
@@ -43,5 +43,5 @@
            ]
         }
     },
-    "scopeName": "litscript.injection.ts"
+    "scopeName": "litscript.injection"
 }

@@ -27,18 +27,15 @@
     "contributes": {
         "grammars": [
             {
-                "scopeName": "litscript.injection.ts",
-                "path": "./syntaxes/lits.ts.tmLanguage.json",
+                "scopeName": "litscript.injection",
+                "path": "./syntaxes/lits.tmLanguage.json",
                 "injectTo": [
                     "source.ts",
-                    "source.tsx"
-                ]
-            },
-            {
-                "scopeName": "litscript.injection.json.comments",
-                "path": "./syntaxes/lits.jsonc.tmLanguage.json",
-                "injectTo": [
-                    "source.json.comments"
+                    "source.tsx",
+                    "source.json.comments",
+                    "source.css",
+                    "source.css.less",
+                    "source.css.scss"
                 ]
             }
         ]
