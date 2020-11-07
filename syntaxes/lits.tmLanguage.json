@@ -43,5 +43,5 @@
            ]
         }
     },
-    "scopeName": "litscript.injection"
+    "scopeName": "documentation.injection.ts"
 }

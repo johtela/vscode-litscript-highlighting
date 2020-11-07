@@ -29,7 +29,7 @@
     "contributes": {
         "grammars": [
             {
-                "scopeName": "litscript.injection",
+                "scopeName": "documentation.injection.ts",
                 "path": "./syntaxes/lits.tmLanguage.json",
                 "injectTo": [
                     "source.ts",
