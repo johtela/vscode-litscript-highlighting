@@ -6,4 +6,6 @@ CSS, Less, Scss, and JSON. This extension higlights markdown text in JSDoc
 comments for all of the supported file formats. It distinguishes most of the
 markdown elements such as headings, inlines, lists, and so forth.
 
+![screenshot](images/screenshot.png)
+
 [LiTScript]: https://johtela.github.io/litscript/
